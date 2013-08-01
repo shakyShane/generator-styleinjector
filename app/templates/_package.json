@@ -1,0 +1,30 @@
+{
+  "name": "<%= _.slugify(name) %>",
+  "version": "0.0.0",
+  "author": {
+    "name": "",
+    "email": "",
+    "url": "https://github.com"
+  },
+  "licenses": [
+    {
+      "type": "MIT"
+    }
+  ],
+  "devDependencies": {
+    "grunt": "~0.4.1",
+    "grunt-contrib-concat": "~0.1.2",
+    "grunt-contrib-uglify": "~0.1.1",
+    "grunt-contrib-watch": "~0.2.0",
+    "grunt-contrib-requirejs": "~0.4.0",
+    "grunt-contrib-sass": "~0.2.2",
+    "grunt-contrib-compass": "~0.2.0",
+    "grunt-remove-logging": "~0.1.1",
+    "grunt-contrib-livereload": "~0.1.2",
+    "matchdep": "~0.1.2",
+    "socket.io": "*",
+    "chokidar": "*",
+    "glob": "*",
+    "lodash": "*"
+  }
+}

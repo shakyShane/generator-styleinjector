@@ -1,0 +1,17 @@
+{
+  "name": "<%= _.slugify(name) %>",
+  "version": "0.0.0",
+  "dependencies": {
+    "requirejs": "~2.1.5",
+    "jquery": "~1.10.x",
+    "modernizr": "*",
+    "zepto": "~1.0.0",
+    "underscore": "~1.5.0"<% if (includeInuit) { %>,
+    "inuit.css": "~5.0.0" <% } %>
+  },
+  "devDependencies": {
+    "jasmine-jquery": "*",
+    "jasmine-sinon": "~0.1.0"
+  }
+}
+

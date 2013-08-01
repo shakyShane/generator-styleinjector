@@ -1,0 +1,35 @@
+{
+  "name": "generator-styleinjector",
+  "version": "0.0.1",
+  "description": "A generator for a style-injecting setup",
+  "keywords": [
+    "yeoman-generator",
+    "live-reload"
+  ],
+  "homepage": "https://github.com/shakyShane/generator-styleinjector",
+  "bugs": "https://github.com/shakyShane/generator-styleinjector/issues",
+  "author": {
+    "name": "Shane Osbourne",
+    "email": "",
+    "url": "https://github.com/shakyShane"
+  },
+  "main": "app/index.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/shakyShane/generator-styleinjector.git"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "dependencies": {
+    "yeoman-generator": "~0.12.0"
+  },
+  "engines": {
+    "node": ">=0.8.0"
+  },
+  "licenses": [
+    {
+      "type": "MIT"
+    }
+  ]
+}
